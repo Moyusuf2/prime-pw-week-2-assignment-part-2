@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Made a variable called name and outputs the name Dane
+// Made a condition that if the name we made is equal to mary, to greet Mary.
+// If not true, log how do you do
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Made a variable named secret
+// made a variable named code and its equals 123
+// if code equals to 123 then secret will be super
+//and code will be multiplied by 2 and console will show secret
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// made 3 variables- isStudent which is equal to true, age which is equal to 34, and zip code that is equal to 55407
+// if student is true and zip code is greater than 800000 then log will print "you're a student on the west coast!"
+// if its not  student or age is less than 30, log will print "what are your hobbies"
+//if its a student, it will print "welcome to prime!"  otherwise, it will print "how about the weather"
+// if 
 
 //CODE
 /*
@@ -130,8 +131,10 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+// Fix colorOne should be blue as intructed and colorTwo set to red
+
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
@@ -144,10 +147,12 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+//FIX changed time from const to variable
+//FIX changed the compound conitionals from or to and since both conditions have to true
 let temp = 40;
-const time = 4;
+let time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -157,13 +162,17 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+//FIX moved minAge and age so that it checks for the age,
+//then switched condition to greater than or equal instead
+// less then or equal
+// also, changed the log print to print enter and switched the else to no enter
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
+if(age >= minAge) {
+  console.log('entry');
 } else {
-  console.log('enter');
+  console.log('no enter');
 }
 */
 
