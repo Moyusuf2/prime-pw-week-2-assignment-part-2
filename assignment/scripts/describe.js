@@ -29,7 +29,7 @@ if (number >= 2) {
 // Made a variable called name and outputs the name Dane
 // Made a condition that if the name we made is equal to mary, to greet Mary.
 // If not true, log how do you do
-//
+//The console will log 'how do you' because the condition does not match the variable we created.
 
 //CODE
 /*
@@ -49,6 +49,7 @@ if (name === 'Mary') {
 // made a variable named code and its equals 123
 // if code equals to 123 then secret will be super
 //and code will be multiplied by 2 and console will show secret
+//Since the code is correct the console will log secret being 'super' and it will multiple our code variable times 2
 
 //CODE
 /*
@@ -74,7 +75,7 @@ console.log(secret)
 // if student is true and zip code is greater than 800000 then log will print "you're a student on the west coast!"
 // if its not  student or age is less than 30, log will print "what are your hobbies"
 //if its a student, it will print "welcome to prime!"  otherwise, it will print "how about the weather"
-// if 
+// if we run the code, the log that will run for us is 'Welcome to Prime'
 
 //CODE
 /*
@@ -138,7 +139,7 @@ let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
-  colorOne = 'purple';
+  colorOne = colorTwo = 'purple';
 }
 */
 
